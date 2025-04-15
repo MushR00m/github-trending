@@ -62,6 +62,7 @@ def job():
     createMarkdown(strdate, filename)
 
     # write markdown
+    scrape('', filename)
     scrape('python', filename)
     scrape('swift', filename)
     scrape('go', filename)
