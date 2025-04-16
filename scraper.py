@@ -70,6 +70,7 @@ def job():
     scrape('c++', filename)
     scrape('c#', filename)
     scrape('rust', filename)
+    scrape('dart', filename)
     scrape('javascript', filename)
     scrape('typescript', filename)
 
