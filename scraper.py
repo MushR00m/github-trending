@@ -32,6 +32,7 @@ def scrape(language, filename):
     }
 
     url = 'https://github.com/trending/{language}?since=daily'.format(language=language)
+    print(url)
     r = requests.get(url, headers=HEADERS)
     assert r.status_code == 200
     
