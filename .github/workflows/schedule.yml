@@ -4,6 +4,9 @@
 name: Daily Github-Trending
 
 on:
+  push:
+    branches:
+      - main
   schedule:
     - cron: "0 2 * * *"
 
