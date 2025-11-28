@@ -69,11 +69,14 @@ def job():
     scrape('go', filename)
     scrape('c', filename)
     scrape('c++', filename)
+    scrape('zig', filename)
     scrape('c#', filename)
     scrape('rust', filename)
     scrape('dart', filename)
     scrape('javascript', filename)
     scrape('typescript', filename)
+    scrape('objective-c', filename)
+    scrape('objective-c++', filename)
 
     # git add commit push
     # git_add_commit_push(strdate, filename)
