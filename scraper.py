@@ -77,6 +77,10 @@ def job():
     scrape('typescript', filename)
     scrape('objective-c', filename)
     scrape('objective-c++', filename)
+    scrape('crystal', filename)
+    scrape('v', filename)
+    scrape('d', filename)
+    scrape('java', filename)
 
     # git add commit push
     # git_add_commit_push(strdate, filename)
