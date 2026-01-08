@@ -73,6 +73,7 @@ def job():
     scrape('c#', filename)
     scrape('rust', filename)
     scrape('dart', filename)
+    scrape('svelte' filename)
     scrape('javascript', filename)
     scrape('typescript', filename)
     scrape('objective-c', filename)
